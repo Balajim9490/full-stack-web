@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Responsive layout</title>
+    <style>
+        
+    @media screen and (min-width: 1024px) and (max-width:1365px){
+        .header {
+            background-color: rgb(90, 89, 89);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+     #sidebar1 {
+        display:inline-block;
+            background-color: rgb(167, 52, 52);
+            width: 400px;
+            height: 50px;
+            padding: 10px;
+            margin-left: 30px;
+         }
+         #maincontent1{
+            display: inline-block;
+            background-color: blue;
+            padding: 10px;
+            width: 500px;
+            height: 50px;
+         }
+         .footer {
+            background-color: rgb(57, 57, 57);
+            color: white;
+            padding:20px;
+            height: 40px;
+            text-align: center;
+        }
+    }
+        </style>
+        </head>
+        <body>
+            <div class="header">
+                <h1>Responsive Layout</h1>
+            </div>
+                <span id="sidebar1">
+                    <label>Sidebar content</label>
+                </span>      
+                <span id="maincontent1">
+                    <label>Main Content</label>
+                </span>
+            <div class="footer">
+                <h3>Footer Content</h3>
+            </div>
+        </body>
+        
+        </html>
